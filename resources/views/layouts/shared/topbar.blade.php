@@ -13,13 +13,13 @@
         <!-- Light Brand Logo -->
         <div class="logo-light">
             <img src="/images/logo-light.png" class="logo-lg h-6" alt="Light logo">
-            <img src="/images/logo-sm.png" class="logo-sm" alt="Small logo">
+            <img src="/images/logo-vertical.png" class="logo-sm" alt="Small logo">
         </div>
 
         <!-- Dark Brand Logo -->
         <div class="logo-dark">
             <img src="/images/logo-dark.png" class="logo-lg h-6" alt="Dark logo">
-            <img src="/images/logo-sm.png" class="logo-sm" alt="Small logo">
+            <img src="/images/logo-vertical.png" class="logo-sm" alt="Small logo">
         </div>
     </a>
 

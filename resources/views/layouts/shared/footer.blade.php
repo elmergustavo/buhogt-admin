@@ -4,7 +4,7 @@
         <div>
             <script>
                 document.write(new Date().getFullYear())
-            </script> © Konrix - <a href="https://coderthemes.com/" target="_blank">Coderthemes</a>
+            </script> © BuhoGT - Derechos reservados
         </div>
         <div class="md:flex hidden gap-4 item-center md:justify-end">
             <a href="javascript: void(0);" class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">About</a>

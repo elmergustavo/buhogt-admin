@@ -4,14 +4,19 @@
     <a href="{{ route('any', 'index') }}" class="logo-box">
         <!-- Light Brand Logo -->
         <div class="logo-light">
-            <img src="/images/logo-light.png" class="logo-lg h-6" alt="Light logo">
-            <img src="/images/logo-sm.png" class="logo-sm" alt="Small logo">
+            <string class="logo-lg">
+                <img src="/images/log-dark.png" class=" h-12" alt="Dark logo">
+            </string>
+            {{-- <img src="/images/logo-light.png" class=" h-6" alt="Light logo"> --}}
+            <img src="/images/logo-vertical.png" class="logo-sm" alt="Small logo">
         </div>
 
         <!-- Dark Brand Logo -->
         <div class="logo-dark">
-            <img src="/images/logo-dark.png" class="logo-lg h-6" alt="Dark logo">
-            <img src="/images/logo-sm.png" class="logo-sm" alt="Small logo">
+            <string class="logo-lg">
+                <img src="/images/logo-horizontal.png" class=" h-12" alt="Dark logo">
+            </string>
+            <img src="/images/logo-vertical.png" class="logo-sm" alt="Small logo">
         </div>
     </a>
 
@@ -531,7 +536,7 @@
         </ul>
 
         <!-- Help Box Widget -->
-        <div class="my-10 mx-5">
+        {{-- <div class="my-10 mx-5">
             <div class="help-box p-6 bg-black/5 text-center rounded-md">
                 <div class="flex justify-center mb-4">
                     <svg width="30" height="18" aria-hidden="true">
@@ -543,7 +548,7 @@
                 <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
                 <a href="javascript: void(0);" class="btn btn-sm bg-secondary text-white">Upgrade</a>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!-- Sidenav Menu End  -->
