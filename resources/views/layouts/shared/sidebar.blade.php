@@ -43,32 +43,32 @@
             <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'calendar']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_calendar_line"></i></span>
-                    <span class="menu-text"> Calendar </span>
+                    <span class="menu-text"> Calendario </span>
                 </a>
             </li>
 
             <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'tickets']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_coupon_line"></i></span>
-                    <span class="menu-text"> Tickets </span>
+                    <span class="menu-text"> Pedidos </span>
                 </a>
             </li>
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'file-manager']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_folder_2_line"></i></span>
                     <span class="menu-text"> File Manager </span>
                 </a>
-            </li>
+            </li> --}}
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'kanban']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_task_2_line"></i></span>
                     <span class="menu-text">Kanban</span>
                 </a>
-            </li>
+            </li> --}}
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_building_2_line"></i></span>
                     <span class="menu-text"> Project </span>
@@ -92,9 +92,9 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="menu-title">Custom</li>
+            {{-- <li class="menu-title">Custom</li>
 
             <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
@@ -125,9 +125,9 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_box_3_line"></i></span>
                     <span class="menu-text"> Extra Pages </span>
@@ -227,11 +227,11 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
             <li class="menu-title">Elements</li>
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_classify_2_line"></i></span>
                     <span class="menu-text"> Components </span>
@@ -509,16 +509,16 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
             <li class="menu-item">
                 <a href="{{ route('any', 'charts') }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_chart_bar_line"></i></span>
-                    <span class="menu-text"> Chart </span>
+                    <span class="menu-text"> Gráficas </span>
                 </a>
             </li>
 
-            <li class="menu-item">
+            {{-- <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_location_line"></i></span>
                     <span class="menu-text"> Maps </span>
@@ -532,7 +532,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
 
         <!-- Help Box Widget -->
