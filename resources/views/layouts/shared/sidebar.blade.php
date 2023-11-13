@@ -54,21 +54,21 @@
                 </a>
             </li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'file-manager']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_folder_2_line"></i></span>
                     <span class="menu-text"> File Manager </span>
                 </a>
-            </li> --}}
+            </li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'kanban']) }}" class="menu-link">
                     <span class="menu-icon"><i class="mgc_task_2_line"></i></span>
                     <span class="menu-text">Kanban</span>
                 </a>
-            </li> --}}
+            </li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_building_2_line"></i></span>
                     <span class="menu-text"> Project </span>
@@ -92,9 +92,9 @@
                         </a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
 
-            {{-- <li class="menu-title">Custom</li>
+            <li class="menu-title">Custom</li>
 
             <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
@@ -125,9 +125,9 @@
                         </a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_box_3_line"></i></span>
                     <span class="menu-text"> Extra Pages </span>
@@ -227,11 +227,11 @@
                         </a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
 
             <li class="menu-title">Elements</li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_classify_2_line"></i></span>
                     <span class="menu-text"> Components </span>
@@ -509,7 +509,7 @@
                         </a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
 
             <li class="menu-item">
                 <a href="{{ route('any', 'charts') }}" class="menu-link">
@@ -518,7 +518,7 @@
                 </a>
             </li>
 
-            {{-- <li class="menu-item">
+            <li class="menu-item">
                 <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                     <span class="menu-icon"><i class="mgc_location_line"></i></span>
                     <span class="menu-text"> Maps </span>
@@ -532,11 +532,11 @@
                         </a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
         </ul>
 
         <!-- Help Box Widget -->
-        {{-- <div class="my-10 mx-5">
+        <div class="my-10 mx-5">
             <div class="help-box p-6 bg-black/5 text-center rounded-md">
                 <div class="flex justify-center mb-4">
                     <svg width="30" height="18" aria-hidden="true">
@@ -548,7 +548,7 @@
                 <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
                 <a href="javascript: void(0);" class="btn btn-sm bg-secondary text-white">Upgrade</a>
             </div>
-        </div> --}}
+        </div>
     </div>
 </div>
 <!-- Sidenav Menu End  -->
