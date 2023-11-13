@@ -7,6 +7,14 @@
     @include('layouts.shared/head-css')
 </head>
 
+<style>
+    [x-cloak] {
+        display: none !important;
+    }
+</style>
+@filamentStyles
+@vite('resources/css/app.css')
+
 <body>
 
     <div class="flex wrapper">
@@ -39,6 +47,9 @@
     @include('layouts.shared/footer-scripts')
 
     @vite(['resources/js/app.js'])
+    @livewire('notifications')
+
+    @filamentScripts
 
 </body>
 

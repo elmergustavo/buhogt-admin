@@ -1,4 +1,14 @@
 <!-- Topbar Start -->
+<head>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+
+    @filamentStyles
+    @vite('resources/css/app.css')
+</head>
 <header class="app-header flex items-center px-4 gap-3">
     <!-- Sidenav Menu Toggle Button -->
     <button id="button-toggle-menu" class="nav-link p-2">
@@ -236,3 +246,8 @@
         </div>
     </div>
 </div>
+
+@livewire('notifications')
+
+        @filamentScripts
+        @vite('resources/js/app.js')

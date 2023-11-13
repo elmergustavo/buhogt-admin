@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import laravel from "laravel-vite-plugin";
+import laravel, { refreshPaths } from "laravel-vite-plugin";
 
 export default defineConfig({
     plugins: [
@@ -8,6 +8,7 @@ export default defineConfig({
                 // Theme Css
                 'resources/scss/app.scss',
                 'resources/scss/icons.scss',
+                // 'resources/css/app.css',
 
                 'node_modules/animate.css/animate.min.css',
                 'node_modules/animate.css/animate.compat.css',
@@ -70,7 +71,15 @@ export default defineConfig({
                 // Code Highlight Js
                 'resources/js/pages/highlight.js',
             ],
-            refresh: true
+            refresh: [
+                ...refreshPaths,
+                'app/Filament/**',
+                'app/Forms/Components/**',
+                'app/Livewire/**',
+                'app/Infolists/Components/**',
+                'app/Providers/Filament/**',
+                'app/Tables/Columns/**',
+            ],
         }),
     ],
 
