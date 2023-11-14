@@ -15,7 +15,7 @@
 @filamentStyles
 @vite('resources/css/app.css')
 
-<body>
+<body class="dark:bg-gray-950">
 
     <div class="flex wrapper">
 
@@ -46,10 +46,10 @@
 
     @include('layouts.shared/footer-scripts')
 
-    @vite(['resources/js/app.js'])
-    @livewire('notifications')
+    {{-- @vite(['resources/js/app.js']) --}}
+    {{-- @livewire('notifications') --}}
 
-    @filamentScripts
+    {{-- @filamentScripts --}}
 
 </body>
 

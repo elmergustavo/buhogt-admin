@@ -1,6 +1,6 @@
  <!-- bundle -->
  @yield('script')
  <!-- App js -->
- @filamentScripts
+ {{-- @filamentScripts --}}
  @vite('resources/js/app.js')
  @yield('script-bottom')

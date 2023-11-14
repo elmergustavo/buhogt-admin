@@ -9,7 +9,7 @@
     @filamentStyles
     @vite('resources/css/app.css')
 </head>
-<header class="app-header flex items-center px-4 gap-3">
+<header class="app-header flex items-center px-4 gap-3 dark:bg-gray-900">
     <!-- Sidenav Menu Toggle Button -->
     <button id="button-toggle-menu" class="nav-link p-2">
         <span class="sr-only">Menu Toggle Button</span>
@@ -48,7 +48,7 @@
                 <img src="/images/flags/us.jpg" alt="user-image" class="h-4 w-6">
             </span>
         </button>
-        <div class="fc-dropdown fc-dropdown-open:opacity-100 hidden opacity-0 w-40 z-50 mt-2 transition-[margin,opacity] duration-300 bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 rounded-lg p-2">
+        <div class="fc-dropdown fc-dropdown-open:opacity-100 hidden opacity-0 w-40 z-50 mt-2 transition-[margin,opacity] duration-300 bg-white dark:bg-gray-900 shadow-lg border border-gray-200 dark:border-gray-700 rounded-lg p-2">
             <!-- item-->
             <a href="javascript:void(0);" class="flex items-center gap-2.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
                 <img src="/images/flags/germany.jpg" alt="user-image" class="h-4">
