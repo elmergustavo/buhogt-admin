@@ -66,7 +66,7 @@
                 </a>
             </li>
 
-            <li class="menu-title">Apps</li>
+            {{-- <li class="menu-title">Apps</li>
 
             <li class="menu-item">
                 <a href="{{ route('second', ['apps', 'calendar']) }}" class="menu-link">
@@ -576,7 +576,7 @@
                 <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
                 <a href="javascript: void(0);" class="btn btn-sm bg-secondary text-white">Upgrade</a>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!-- Sidenav Menu End  -->
